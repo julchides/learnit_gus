@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<title>Banderogus</title>
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="header-content">
+			<a href="./index.html"><img src="./svg/logo.svg" alt="Go IT"></a>
+			<p class="header-details">Школа підготовки<br> IT-спеціалістів</p>
+		</div>
+	</header>
+
+	<!--Main-->
+	<main>
+		<!--Hero-->
+		<section class="hero">
+			<div class="hero-content">
+				<div class="hero-block">
+					<p class="hero-text1">Доброго вечора, ми з України</p>
+					<p class="hero-text2">На старт. Увага. Полетіли!</p>
+					<h1 class="hero-title">Бандерогусь</h1>
+					<p class="hero-paragraph">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую
+					позитивний дух народу. Слава Україні!</p>
+					<a href="#openModal1" class="hero-button">Запустити гуся</a>
+				</div>
+				<img src="./images/gus_main.png" alt="Бандерогусь власною персоною">
+			</div>
+		</section>
+
+		<!-- Modal 1 -->
+		<section id="openModal1" class="modal1">
+			<div class="modal-window">
+				<div class="modal-header">
+					<img src="./images/spacer.png" alt="" width="30px">
+					<img class="trizub" src="./svg/trizub.svg" alt="Герб України">
+					<a href="#close" title="Close" class="close">×</a>
+				</div>
+				<h2 class="modal-title">Поділися, будь ласка, поштою</h2>
+				<p class="modal-paragraph">та запиши гуся до бандерозагону</p>
+				<form class="modal-form" action="#openModal2">
+					<label class="modal-form-label" for="name">Ім'я</label>
+					<input class="modal-form-input" type="text" name="name" id="name" required>
+					<label class="modal-form-label" for="email">Електронна пошта</label>
+					<input class="modal-form-input" type="email" name="email" id="email" required>
+					<input class="modal-form-button" type="submit" value="Запустити гуся">
+				</form>
+			</div>
+		</section>
+
+		<!-- Modal 2 -->
+		<section id="openModal2" class="modal2">
+			<div class="modal-window">
+				<div class="modal-header">
+					<img src="./images/spacer.png" alt="" width="30px">
+					<img class="trizub" src="./svg/trizub.svg" alt="Герб України">
+					<a href="#close" title="Close" class="close">×</a>
+				</div>
+				<h2 class="modal-title">Дякуємо, гусь успішно запущений</h2>
+				<p class="modal-paragraph">Слава Україні! Героям Слава!</p>
+			</div>
+		</section>
+
+		<!-- Facts -->
+		<section class="facts">
+			<img class="trizub" src="./svg/trizub.svg" alt="Герб України">
+			<h2 class="facts-title">Цікаві факти про бандерогусей</h2>
+			<p class="facts-paragraph">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного
+			озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами</p>
+		</section>
+
+		<!-- Features -->
+		<section class="features">
+			<h2 hidden>Властивості</h2>
+			<ul class="features-list">
+				<li class="features-item">
+					<img class="features-item-img" src="./images/gus1.png" alt="Гусь стоїть з супутниковою тарілкою">
+					<h3 class="features-item-title">Система навігації</h3>
+					<p class="features-item-paragraph">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p>
+				</li>
+				<li class="features-item">
+					<img class="features-item-img" src="./images/gus2.png" alt="Гусь дивиться у бінокль">
+					<h3 class="features-item-title">Очі-тепловізори</h3>
+					<p class="features-item-paragraph">Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
+				</li>
+				<li class="features-item">
+					<img class="features-item-img" src="./images/gus3.png" alt="Гусь летить з розкритими крилами">
+					<h3 class="features-item-title">Байракрила</h3>
+					<p class="features-item-paragraph">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
+				</li>
+			</ul>
+		</section>
+
+		<!-- Victory -->
+		<section class="victory">
+			<div class="victory-content">
+				<img class="trizub" src="./svg/trizub.svg" alt="Герб України">
+				<h2 class="victory-title">Перемога завжди за нами!</h2>
+				<p class="victory-paragraph">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
