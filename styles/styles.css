@@ -33,6 +33,7 @@ a {
 .header-content {
 	display: flex;
 	align-items: center;
+	margin-left: 95px;
 }
 
 .header-details {
@@ -58,6 +59,7 @@ a {
 
 .hero-block {
 	background-color: #fff;
+	margin-left: 95px;
 	margin-top: 120px;
 	width: 570px;
 	height: 520px;
@@ -126,10 +128,12 @@ a {
 }
 
 .facts-paragraph {
+	width: 875px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	color: #1B1D1F;
+	margin: 0 auto;
 }
 
 /* features */
@@ -141,6 +145,7 @@ a {
 .features-list {
 	display: flex;
 	justify-content: space-between;
+	margin: 0 95px;
 }
 
 .features-item {
@@ -173,15 +178,12 @@ a {
 
 /* victory */
 .victory {
-	height: 376px;
-	background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
-}
-
-.victory-content {
+	height: 304px;
 	width: 1340px;
-	margin: 0 auto;
+	background: linear-gradient(270deg, #C1E8FF 0%, #F4FBFF 100%);
+	margin: 0 auto 95px auto;
 	text-align: center;
-	padding: 72px 0;
+	padding: 72px 0 0 0;
 }
 
 .victory-title {
@@ -193,7 +195,7 @@ a {
 }
 
 .victory-paragraph {
-	width: 880px;
+	width: 875px;
 	margin: 0 auto;
 	font-weight: 400;
 	font-size: 16px;
